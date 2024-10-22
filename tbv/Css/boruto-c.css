@@ -20,6 +20,11 @@
         position: relative;
        
     }
+
+     .caixa {
+        height: 30%;
+    }
+    
     figcaption p {
         color: wheat;
         font-size: 3vh;
