@@ -74,7 +74,7 @@
     }
     .logo {
         height: 95%;
-        object-fit: cover;
+        object-fit: contain;
     }
    
 
