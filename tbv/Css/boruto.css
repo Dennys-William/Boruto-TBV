@@ -67,7 +67,7 @@ main {
     height: 90%;
     position: absolute;
     right: 0%;
-  
+    border-radius: 20px;
     object-fit: cover;
     
 }
@@ -167,7 +167,7 @@ figcaption p {
 .video {
     width: 100%;
     height: 100%;
-    
+    border-radius: 30px;
     object-fit: contain;
 }
 
