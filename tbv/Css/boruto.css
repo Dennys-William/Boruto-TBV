@@ -33,7 +33,7 @@ nav li a:hover{
 header {
     width: 100%;
     position: relative;
-  
+   
 }
 h2 {
     font-size: 5vh;
@@ -45,7 +45,7 @@ h2 {
 main {
     width: 100%;
     height: 90vh;
-    
+ 
     position: relative;
     background: rgb(0, 0, 0);
 }
@@ -53,7 +53,7 @@ main {
 .main1 {
     background: black;
     bottom: 15%;
-   
+    
     width: 90%;
     margin-left: 50%;
     transform: translateX(-50%);
@@ -88,7 +88,7 @@ figcaption {
     height: 60%;
     overflow: hidden;
     
-   
+  
     position: absolute;
     left: 0%;
     text-align: left;
@@ -105,30 +105,7 @@ figcaption p {
 }
 
 
-.botao {
-    width: 100%;
-    height: 10vh;
-    padding-top: 2%;
-    position: relative;
-    background: wheat;
-}
-.botao1 {
-    position: absolute;
-    outline: 1px solid orangered;
-    padding-left: 7vh;
-    padding-right: 7vh;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    border-radius: 50px;
-    font-size: 2vh;
-    left: 50%;
-    bottom: 0%;
-    transform: translateX(-50%);
-    transition: 0.6s;
-}
-.botao1:hover {
-    background: orange;
-}
+
 
 
 .trailer{
@@ -137,17 +114,18 @@ figcaption p {
     
     position: relative;
     background: rgb(22, 22, 22);
+    text-align: center;
 }
 
 .caixa {
-    
+   
     
     min-width: 320px;
     max-width: 800px;
     height: 45%;
     margin: auto;
     position: relative;
-   
+  
     background: rgb(22, 22, 22);
    
 }
@@ -164,13 +142,69 @@ figcaption p {
 }
     
 
-.video {
-    width: 100%;
-    height: 100%;
+.conteudo {
+
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 320px;
+    max-height: 800px;
+    
+    position: relative;
+    margin: auto;
     border-radius: 10px;
     object-fit: contain;
-    
+   overflow: hidden;
 }
+.imagem {
+    width: 100% ;
+    min-height: 320px;
+    max-height: 800px;
+    border-radius: 20px;
+    object-fit: cover;
+    transition-duration: 1s;
+    position: initial;
+}
+.imagem1 {
+    width: 100% ;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+
+}
+.video {
+ 
+    transition: 0.6s;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+  
+}
+
+
+
+.botao {
+    width: 90px;
+    height: 100%;
+    position: absolute;
+  
+     left: 50%;
+     transform: translateX(-50%);
+      text-align: left;
+}
+.botao1 {
+    width: 100%;
+    height: 86px;
+    object-fit: cover;
+    border-radius: 500px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+      
+}
+
+
 
 
 
