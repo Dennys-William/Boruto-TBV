@@ -33,7 +33,7 @@ nav li a:hover{
 header {
     width: 100%;
     position: relative;
-   
+    /*outline: 5px solid maroon; */
 }
 h2 {
     font-size: 5vh;
@@ -45,7 +45,7 @@ h2 {
 main {
     width: 100%;
     height: 90vh;
- 
+    /*outline: 1px solid wheat;  */
     position: relative;
     background: rgb(0, 0, 0);
 }
@@ -53,7 +53,7 @@ main {
 .main1 {
     background: black;
     bottom: 15%;
-    
+    /*outline: 5px solid wheat;*/
     width: 90%;
     margin-left: 50%;
     transform: translateX(-50%);
@@ -88,7 +88,11 @@ figcaption {
     height: 60%;
     overflow: hidden;
     
-  
+   /* outline: 1px solid magenta;*/
+   /*
+    bottom: 50%;
+    transform: translateY(50%);
+    */
     position: absolute;
     left: 0%;
     text-align: left;
@@ -118,14 +122,16 @@ figcaption p {
 }
 
 .caixa {
-   
+    /*
+    width: 40%;
+    */
     
     min-width: 320px;
     max-width: 800px;
     height: 45%;
     margin: auto;
     position: relative;
-  
+   /*outline: 1px solid white;*/
     background: rgb(22, 22, 22);
    
 }
@@ -143,7 +149,7 @@ figcaption p {
     
 
 .conteudo {
-
+   /* outline: 1px solid white;*/
     min-width: 320px;
     max-width: 500px;
     min-height: 320px;
@@ -153,7 +159,7 @@ figcaption p {
     margin: auto;
     border-radius: 10px;
     object-fit: contain;
-   overflow: hidden;
+   overflow: hidden; 
 }
 .imagem {
     width: 100% ;
@@ -172,7 +178,7 @@ figcaption p {
 
 }
 .video {
- 
+    /*outline: 2px solid purple; */
     transition: 0.6s;
     border-radius: 20px;
     width: 100%;
@@ -181,14 +187,22 @@ figcaption p {
     position: absolute;
   
 }
-
-
+.teee {
+    width: 20vh;
+    height: 20vh;
+}
+/*
+.imagem:hover {
+    width: 40%;
+    border-radius: 100%;
+}
+*/
 
 .botao {
     width: 90px;
     height: 100%;
     position: absolute;
-  
+   /* outline: 1px solid wheat;*/
      left: 50%;
      transform: translateX(-50%);
       text-align: left;
@@ -207,7 +221,44 @@ figcaption p {
 
 
 
+/*
+.trailer {
+    width: 100%;
+    height: 120vh;
+    outline: 1px solid black;
+    position: relative;
+}
 
+.logo {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    top: 0%;
+    
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.video {
+    width: 40%;
+    height: 40%;
+    object-fit: contain;
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h2 {
+    color: red;
+    font-size: 4vh;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+*/
 
 
 
