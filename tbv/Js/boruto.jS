@@ -5,6 +5,14 @@ let botao1 = document.querySelector('.botao1')
 let imagem = document.querySelector('.imagem')
 let imagem1 = document.querySelector('.imagem1')
 let video = document.querySelector('.video')
+let foto = document.querySelector('.foto')
+let foto1 = document.querySelector('.foto1')
+
+
+setTimeout(function() {
+    foto.style.opacity = '1'
+    foto1.style.opacity = '1'
+}, 500)
 
 
 function aperte() {
@@ -20,6 +28,9 @@ function aperte() {
 
     },800)
   
+
+
+
 
 }
 
