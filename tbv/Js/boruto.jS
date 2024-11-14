@@ -18,7 +18,7 @@ function aperte() {
     video.innerHTML = '<iframe  class="video"  src="https://www.youtube.com/embed/3RPTG9NSwLg?si=zbza5u2GxLgVfIYT?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
     video.style.textAlign = 'left'
 
-    },2000)
+    },1000)
   
 
 }
